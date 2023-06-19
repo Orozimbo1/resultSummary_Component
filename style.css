@@ -1,3 +1,167 @@
-body {
-  background-color: red;
+@font-face {
+  font-family: 'Hanken Grotesk';
+  src: url('./assets/fonts/HankenGrotesk-VariableFont_wght.ttf');
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Hanken Grotesk';
+}
+
+p {
+  font-size: 15px;
+  color: hsl(241, 100%, 89%);
+  width: 70%;
+  margin: 0 auto;
+}
+
+h3 {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.result {
+  text-align: center;
+  padding: 1.5em;
+  background-color: hsl(241, 81%, 54%);
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+
+.result h3 {
+  color: hsl(241, 100%, 89%);
+}
+
+.result h2 {
+  color: hsl(0, 0%, 100%);
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: .5em;
+}
+
+.result div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: .8em auto;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-image: linear-gradient(to bottom, hsla(256, 72%, 46%, 1), hsl(241, 81%, 54%))
+
+}
+.result div h1 {
+  /* padding: .5em 0 .1em; */
+  color: hsl(0, 0%, 100%);
+  font-size: 45px;
+  font-weight: 800;
+}
+.result div p {
+  font-size: 12px;
+  color: hsl(224, 30%, 57%);
+  font-weight: 800;
+}
+
+.resume {
+  padding: 1.5em;
+}
+
+.resume h3 {
+  color: hsl(224, 30%, 27%);
+  font-weight: 700;
+}
+
+.data {
+  padding: .5em 1em;
+  margin: 1em 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: hsla(241, 100%, 99%);
+  border-radius: 10px;
+  font-weight: 700;
+}
+
+.data div {
+  display: flex;
+  align-items: center;
+}
+
+.data div p {
+  margin-left: .5em;
+}
+
+.reaction {
+  color: hsl(0, 100%, 67%);
+}
+
+.memory {
+  color: hsl(39, 100%, 56%);
+}
+
+.verbal {
+  color: hsl(166, 100%, 37%);
+}
+
+.visual {
+  color: hsl(234, 85%, 45%);
+}
+
+.data div .pointing {
+  color: hsl(224, 30%, 27%);
+}
+
+button {
+  height: 50px;
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(224, 30%, 27%);
+  border: none;
+  width: 100%;
+  border-radius: 25px;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+@media screen and (min-width: 376px) {
+  body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  section {
+    width: 20vw;
+  }
+
+  .result {
+    border-radius: 25px;
+    padding: 2em 0;
+  }
+
+  .result div {
+    height: 130px;
+    width: 130px;
+    margin: 1.7em auto;
+  }
+
+  .result div h1 {
+    font-size: 70px;
+  }
+
+  .card {
+    height: auto;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.055);
+  }
+
+  p {
+    width: 70%;
+  }
 }
