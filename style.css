@@ -127,7 +127,7 @@ button {
 }
 
 button:hover {
-  background-color: hsla(241, 100%, 99%);
+  background-color: hsla(256, 72%, 46%, 1);
 }
 
 @media screen and (min-width: 376px) {
