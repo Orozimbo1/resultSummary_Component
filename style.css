@@ -122,6 +122,12 @@ button {
   border-radius: 25px;
   font-size: 18px;
   font-weight: 700;
+  cursor: pointer;
+  transition: .3s;
+}
+
+button:hover {
+  background-color: hsla(241, 100%, 99%);
 }
 
 @media screen and (min-width: 376px) {
