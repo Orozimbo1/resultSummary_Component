@@ -9,7 +9,7 @@
 
 **Font Size Paragrafo** : 15px
 
-# Mobile 425px
+# Mobile 375px
 ![Imagem representação do design de mobile](./design/mobile-design.jpg)
 
 # Desktop 1440px
